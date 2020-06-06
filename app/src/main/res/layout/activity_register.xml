@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b5998"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="9"
+            android:text="Đăng Kí"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edt_email"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:hint="UserName"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edt_pw"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Password"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/btn_signUp"
+                android:text="Đăng Kí"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:background="#191970"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_signIn"
+                android:text="Đăng nhập"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
